@@ -15,6 +15,7 @@
 - `Hero.jsx` owns the scroll-pinned hero timeline, mask calculations, and transition into the coming-soon message.
 - `CommingSoon.jsx` renders the entrance message nested inside the hero section.
 - `FirstVideo.jsx` owns the first scroll-pinned video transition after the hero and scrubs `/videos/output1.mp4`.
+- `Jason.jsx` owns the Jason character biography section and the scroll transition out of the first video.
 - `Nav.jsx` renders the fixed page navigation.
 - GSAP selectors in `Hero.jsx` must stay scoped through `useGSAP` and `heroRef`.
 - Hero mask math depends on DOM measurements and asset aspect ratios from `public/images/`.
