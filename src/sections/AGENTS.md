@@ -19,6 +19,7 @@
 - `SecondVideo.jsx` owns the Lucia intro scroll-pinned video transition and scrubs `/videos/output2.mp4`.
 - `Lucia.jsx` owns the Lucia character biography section and the scroll transition out of the second video.
 - `PostCard.jsx` owns the Leonida Keys postcard section and scrubs `/videos/postcard-vd.mp4`.
+- `Final.jsx` owns the final scroll-pinned video section and scrubs `/videos/output3.mp4`.
 - `Nav.jsx` renders the fixed page navigation.
 - GSAP selectors in `Hero.jsx` must stay scoped through `useGSAP` and `heroRef`.
 - Hero mask math depends on DOM measurements and asset aspect ratios from `public/images/`.
