@@ -16,6 +16,8 @@
 - `CommingSoon.jsx` renders the entrance message nested inside the hero section.
 - `FirstVideo.jsx` owns the first scroll-pinned video transition after the hero and scrubs `/videos/output1.mp4`.
 - `Jason.jsx` owns the Jason character biography section and the scroll transition out of the first video.
+- `SecondVideo.jsx` owns the Lucia intro scroll-pinned video transition and scrubs `/videos/output2.mp4`.
+- `Lucia.jsx` owns the Lucia character biography section and the scroll transition out of the second video.
 - `Nav.jsx` renders the fixed page navigation.
 - GSAP selectors in `Hero.jsx` must stay scoped through `useGSAP` and `heroRef`.
 - Hero mask math depends on DOM measurements and asset aspect ratios from `public/images/`.
